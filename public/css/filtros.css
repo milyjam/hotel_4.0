@@ -1,0 +1,23 @@
+.hotel-dropdown .select2-results__options,
+.quarto-dropdown .select2-results__options {
+    max-height: 200px; /* Altura máxima desejada */
+    overflow-y: auto;
+}
+
+.hotel-item, .quarto-item {
+    padding: 5px;
+}
+
+.hotel-name, .quarto-name {
+    font-weight: bold;
+}
+
+.hotel-location, .quarto-details {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.dropdown-scroll {
+    max-height: none !important;
+    overflow-y: auto !important;
+}
